@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+:root {
+    --Text: #121311;
+    --Background: #ffffff;
+    --Primary: #2F657F;
+    --Secondary: #FF8551;
+    --Accent: #99b4c1;
+}
