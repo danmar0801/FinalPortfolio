@@ -1,0 +1,28 @@
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--Background);
+    border: none;
+    margin-right: 5px;
+}
+
+.social-btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px var(--Primary);
+
+}
+
+.color-effect {
+    font-size: 40px;
+    font-weight: bold; /* Increase font weight for a thicker appearance */
+    background: linear-gradient(140deg, var(--Primary), var(--Accent));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}

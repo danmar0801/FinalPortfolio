@@ -5,8 +5,18 @@
 
 :root {
     --Text: #121311;
-    --Background: #ffffff;
-    --Primary: #2F657F;
-    --Secondary: #FF8551;
-    --Accent: #99b4c1;
+    --Background: #F5F9FF;
+    --Primary: #4f93ff;
+    --Secondary: #A1C4FC;
+    --Accent: #9ffd8a;
+}
+body {
+    background-color: var(--Background);;
+}
+
+a, p, li {
+    color: var(--Text);
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
